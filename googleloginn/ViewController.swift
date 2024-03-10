@@ -15,11 +15,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.addSubview(loginBtn)
+        
+        loginBtn.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            loginBtn.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            loginBtn.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+        
+        loginBtn.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
+        
         GIDSignIn.sharedInstance()?.presentingViewController = self // 로그인화면 불러오기
         GIDSignIn.sharedInstance()?.restorePreviousSignIn() // 자동로그인
-
     }
-
-
+    
+    @objc func loginButtonTapped() {
+        GIDSignIn.sharedInstance()?.signIn()
+    }
 }
-
