@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BD4ECFE6012E464B9F3228B /* Pods_googleloginn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA4C6F65045DBDBC156B3C9 /* Pods_googleloginn.framework */; };
 		90E18AC12B9DA7FB00B27BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AC02B9DA7FB00B27BA3 /* AppDelegate.swift */; };
 		90E18AC32B9DA7FB00B27BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AC22B9DA7FB00B27BA3 /* SceneDelegate.swift */; };
 		90E18AC52B9DA7FB00B27BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AC42B9DA7FB00B27BA3 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		90E18AD82B9DA7FC00B27BA3 /* googleloginnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AD72B9DA7FC00B27BA3 /* googleloginnTests.swift */; };
 		90E18AE22B9DA7FC00B27BA3 /* googleloginnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AE12B9DA7FC00B27BA3 /* googleloginnUITests.swift */; };
 		90E18AE42B9DA7FC00B27BA3 /* googleloginnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E18AE32B9DA7FC00B27BA3 /* googleloginnUITestsLaunchTests.swift */; };
+		D0497317216D6631F03BA5AD /* Pods_googleloginnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B9D7E677DF0AEFD6B15059 /* Pods_googleloginnTests.framework */; };
+		FFA0C5C006C731912CDACE61 /* Pods_googleloginn_googleloginnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9238E627D6B0F3F3042060 /* Pods_googleloginn_googleloginnUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A9238E627D6B0F3F3042060 /* Pods_googleloginn_googleloginnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleloginn_googleloginnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9D7E677DF0AEFD6B15059 /* Pods_googleloginnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleloginnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B425F19B0540A4480D69864 /* Pods-googleloginnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginnTests.debug.xcconfig"; path = "Target Support Files/Pods-googleloginnTests/Pods-googleloginnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA4C6F65045DBDBC156B3C9 /* Pods_googleloginn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleloginn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E18ABD2B9DA7FB00B27BA3 /* googleloginn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleloginn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E18AC02B9DA7FB00B27BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E18AC22B9DA7FB00B27BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		90E18ADD2B9DA7FC00B27BA3 /* googleloginnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleloginnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E18AE12B9DA7FC00B27BA3 /* googleloginnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleloginnUITests.swift; sourceTree = "<group>"; };
 		90E18AE32B9DA7FC00B27BA3 /* googleloginnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleloginnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE5162F9CDC286D9D8A38A88 /* Pods-googleloginn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginn.debug.xcconfig"; path = "Target Support Files/Pods-googleloginn/Pods-googleloginn.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4FBBBFA8D181F37FF426B7 /* Pods-googleloginn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginn.release.xcconfig"; path = "Target Support Files/Pods-googleloginn/Pods-googleloginn.release.xcconfig"; sourceTree = "<group>"; };
+		DEA9703E6F6E8CE12B05CFA4 /* Pods-googleloginn-googleloginnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginn-googleloginnUITests.release.xcconfig"; path = "Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E059065A4D5E7CA02DC6F785 /* Pods-googleloginnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginnTests.release.xcconfig"; path = "Target Support Files/Pods-googleloginnTests/Pods-googleloginnTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5562C26739250A44C9B7BB1 /* Pods-googleloginn-googleloginnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleloginn-googleloginnUITests.debug.xcconfig"; path = "Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD4ECFE6012E464B9F3228B /* Pods_googleloginn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0497317216D6631F03BA5AD /* Pods_googleloginnTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA0C5C006C731912CDACE61 /* Pods_googleloginn_googleloginnUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74403E6D19880ADA1A80DFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4C6F65045DBDBC156B3C9 /* Pods_googleloginn.framework */,
+				1A9238E627D6B0F3F3042060 /* Pods_googleloginn_googleloginnUITests.framework */,
+				22B9D7E677DF0AEFD6B15059 /* Pods_googleloginnTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90E18AB42B9DA7FB00B27BA3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				90E18AD62B9DA7FC00B27BA3 /* googleloginnTests */,
 				90E18AE02B9DA7FC00B27BA3 /* googleloginnUITests */,
 				90E18ABE2B9DA7FB00B27BA3 /* Products */,
+				AB861114D75310FC81E59A86 /* Pods */,
+				74403E6D19880ADA1A80DFE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,19 @@
 			path = googleloginnUITests;
 			sourceTree = "<group>";
 		};
+		AB861114D75310FC81E59A86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE5162F9CDC286D9D8A38A88 /* Pods-googleloginn.debug.xcconfig */,
+				BE4FBBBFA8D181F37FF426B7 /* Pods-googleloginn.release.xcconfig */,
+				E5562C26739250A44C9B7BB1 /* Pods-googleloginn-googleloginnUITests.debug.xcconfig */,
+				DEA9703E6F6E8CE12B05CFA4 /* Pods-googleloginn-googleloginnUITests.release.xcconfig */,
+				6B425F19B0540A4480D69864 /* Pods-googleloginnTests.debug.xcconfig */,
+				E059065A4D5E7CA02DC6F785 /* Pods-googleloginnTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E18AE72B9DA7FC00B27BA3 /* Build configuration list for PBXNativeTarget "googleloginn" */;
 			buildPhases = (
+				CB0ADE2B258CE7A3FB355B93 /* [CP] Check Pods Manifest.lock */,
 				90E18AB92B9DA7FB00B27BA3 /* Sources */,
 				90E18ABA2B9DA7FB00B27BA3 /* Frameworks */,
 				90E18ABB2B9DA7FB00B27BA3 /* Resources */,
+				CD230330430807DF7AAC10F6 /* [CP] Embed Pods Frameworks */,
+				911BA6950E5058212B77D41E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E18AEA2B9DA7FC00B27BA3 /* Build configuration list for PBXNativeTarget "googleloginnTests" */;
 			buildPhases = (
+				5B3BE323660FB5F8984F9098 /* [CP] Check Pods Manifest.lock */,
 				90E18ACF2B9DA7FC00B27BA3 /* Sources */,
 				90E18AD02B9DA7FC00B27BA3 /* Frameworks */,
 				90E18AD12B9DA7FC00B27BA3 /* Resources */,
@@ -169,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E18AED2B9DA7FC00B27BA3 /* Build configuration list for PBXNativeTarget "googleloginnUITests" */;
 			buildPhases = (
+				62F46066B69CC175118C0DC4 /* [CP] Check Pods Manifest.lock */,
 				90E18AD92B9DA7FC00B27BA3 /* Sources */,
 				90E18ADA2B9DA7FC00B27BA3 /* Frameworks */,
 				90E18ADB2B9DA7FC00B27BA3 /* Resources */,
+				CC117512E0C3473C4DA1C39C /* [CP] Embed Pods Frameworks */,
+				141F3C238E9AB754C4315047 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141F3C238E9AB754C4315047 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3BE323660FB5F8984F9098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleloginnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F46066B69CC175118C0DC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleloginn-googleloginnUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911BA6950E5058212B77D41E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0ADE2B258CE7A3FB355B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleloginn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC117512E0C3473C4DA1C39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleloginn-googleloginnUITests/Pods-googleloginn-googleloginnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD230330430807DF7AAC10F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleloginn/Pods-googleloginn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90E18AB92B9DA7FB00B27BA3 /* Sources */ = {
@@ -437,6 +621,7 @@
 		};
 		90E18AE82B9DA7FC00B27BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5162F9CDC286D9D8A38A88 /* Pods-googleloginn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +650,7 @@
 		};
 		90E18AE92B9DA7FC00B27BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4FBBBFA8D181F37FF426B7 /* Pods-googleloginn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +679,7 @@
 		};
 		90E18AEB2B9DA7FC00B27BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B425F19B0540A4480D69864 /* Pods-googleloginnTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +700,7 @@
 		};
 		90E18AEC2B9DA7FC00B27BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E059065A4D5E7CA02DC6F785 /* Pods-googleloginnTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +721,7 @@
 		};
 		90E18AEE2B9DA7FC00B27BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5562C26739250A44C9B7BB1 /* Pods-googleloginn-googleloginnUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +740,7 @@
 		};
 		90E18AEF2B9DA7FC00B27BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA9703E6F6E8CE12B05CFA4 /* Pods-googleloginn-googleloginnUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
